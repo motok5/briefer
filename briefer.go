@@ -63,6 +63,8 @@ func main() {
 				addText = "."
 			} else if token.Surface == "？" {
 				addText = "?"
+			} else if token.Surface == "！" {
+				addText = "!"
 			} else {
 				addText = token.Surface
 			}
